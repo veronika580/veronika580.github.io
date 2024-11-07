@@ -1,0 +1,4 @@
+git config --global user.name "veronika580"
+git config --global user.email "veronikamaskin@gmail.com"
+
+veronika580.github.io

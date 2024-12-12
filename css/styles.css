@@ -1,0 +1,98 @@
+* {
+  box-sizing: border-box;
+  margin-bottom: 0;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: hsla(307, 57%, 59%, 0.537);
+  margin: 8px;
+}
+
+p {
+  font-style: italic;
+  font-size: 20px;
+  color: rgb(0, 0, 0);
+
+  font-style: italic;
+  font-size: 20px;
+  color: rgb(31, 25, 28);
+}
+
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  background-color: rgb(190, 69, 176);
+}
+.logo {
+  text-decoration: none;
+  font-size: 40px;
+  color: rgb(164, 164, 202);
+  display: block;
+  padding: 8px;
+
+}
+
+.highlighted {
+  background-color: rgb(143, 14, 61);
+  padding: 160px 0 0 0;
+  /* width: 300px;*/
+  min-width: 400px;
+  max-width: 600px;
+  height: 400px;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 16px;
+}
+
+
+
+.menu {
+list-style: none;
+padding: 0%;
+
+
+display: flex;
+
+}
+.menu a {
+  text-decoration: none;
+  text-emphasis: none;
+  font-size: 20px;
+  color: darkgreen;
+
+  display: block;
+  padding: 8px;
+}
+.menu a:hover {
+  color: brown;
+  background-color: chocolate;
+}
+.section{
+  width: 100%;
+
+}
+#flex[
+  display: flex;
+]
+.container {
+  width: 150px;
+  border: 1px solid rgb(107, 24, 24);
+  display: inline-flex;
+}
+.box {
+  font-size: 2 ren;
+  background-color: rgb(113, 20, 110);
+  /*
+}

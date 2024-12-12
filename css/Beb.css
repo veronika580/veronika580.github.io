@@ -31,6 +31,7 @@ p {
   width: 100%;
   background-color: rgb(190, 69, 176);
 }
+
 .logo {
   text-decoration: none;
   font-size: 40px;
@@ -59,13 +60,14 @@ p {
 
 
 .menu {
-list-style: none;
-padding: 0%;
+  list-style: none;
+  padding: 0%;
 
 
-display: flex;
+  display: flex;
 
 }
+
 .menu a {
   text-decoration: none;
   text-emphasis: none;
@@ -75,50 +77,70 @@ display: flex;
   display: block;
   padding: 8px;
 }
+
 .menu a:hover {
   color: brown;
   background-color: chocolate;
 }
-.section{
+
+.section {
   width: 100%;
 
 }
-#flex[
+
+#flex {
+
   display: flex;
-]
+}
+
 .container {
   width: 150px;
   border: 1px solid rgb(131, 44, 44);
   display: inline-flex;
 }
-.box {font-size: 2 ren;
-  background-color: rgb(223, 108, 220);
-  
-  body {
-    font-family: 'Roboto Mono', monospace;
-  }
-  
-  h2 {
-    font-size: 30px;
-    text-align: center;
-    background-color: blue;
-  } 
 
-  h2 {
-    font-size: 60px;
-    text-align: center;
-    background-color: rgb(235, 200, 218);
-    margin: 170px;
-    
-  }
-  .container {
-    display: flex;
-    flex-direction: row;
-    background-color: rgb(169, 81, 106);
-  }
-p{
+.box {
+  font-size: 2 ren;
+  background-color: rgb(223, 108, 220);
+}
+
+body {
+  font-family: 'Roboto Mono', monospace;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+  background-color: blue;
+}
+
+h2 {
+  font-size: 60px;
+  text-align: center;
+  background-color: rgb(235, 200, 218);
+  margin: 170px;
+
+}
+
+.container {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(169, 81, 106);
+}
+
+p {
   font-size: 14px;
   background-color: rgb(217, 25, 201);
-  margin: 60px;;
+  margin: 60px;
 }
-p
+
+.contacts {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.contacts a {
+  display: block;
+
+}
